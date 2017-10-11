@@ -1,6 +1,9 @@
 # Font Comparator
 > While waiting for a better name
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/555225b5e7a2b219b2c3/maintainability)](https://codeclimate.com/github/carvallegro/font-comparator/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/555225b5e7a2b219b2c3/test_coverage)](https://codeclimate.com/github/carvallegro/font-comparator/test_coverage)
+
 ## Design
 
 - Color palette : https://coolors.co/f9f9f9-cc7bf6-54d363-ed1700-f76927
