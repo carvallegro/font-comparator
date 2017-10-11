@@ -1,0 +1,4 @@
+# Jekyll Configuration
+
+source: ./gh_pages
+safe: true
