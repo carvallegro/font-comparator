@@ -1,4 +1,4 @@
 # Jekyll Configuration
 
-source: /build
+source: /gh_pages
 safe: true
