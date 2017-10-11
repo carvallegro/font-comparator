@@ -7,7 +7,7 @@
     "test": "jest",
     "build": "react-scripts build",
     "lint": "standard --fix",
-    "eject": "react-scripts eject",
+    "safe_word_eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
   },
