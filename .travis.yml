@@ -14,5 +14,7 @@ deploy:
    skip_cleanup: true
    github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
    on:
-     branch: master
+     # temporary comment for the bugfix
+     # branch: master
+     branch: bugfix/gh_pages_rendering
    target_branch: gh-pages # default value
