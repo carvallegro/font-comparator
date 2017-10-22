@@ -110,7 +110,7 @@ goto first step (or shut off burner when done)</code></pre>
     Line tree</p>
   <p>and images can be specified like so:</p>
   <div>
-    <img src='example-image.jpg' title='An exemplary image' alt='example image' />
+    <img src='example-image.jpg' title='An exemplary image' alt='example' />
     <p>example image</p>
   </div>
 </Wrapper>
