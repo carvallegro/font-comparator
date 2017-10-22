@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import { SiteTitle, SubTitle } from '../../components/site-title'
 import FontList from '../font-list'
 
@@ -9,8 +9,8 @@ export const HomepageJSX = () => (
   <Wrapper>
     <SiteTitle>Font Comparator</SiteTitle>
     <SubTitle>Need to find a better title</SubTitle>
-    <button>Go to Comparator</button>
-    <FontList />
+    <Link to='/compare'>Go to Comparator</Link>
+    <FontList/>
   </Wrapper>
 )
 
