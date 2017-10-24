@@ -8,8 +8,8 @@ import { Wrapper } from './style'
 export const ComparatorPageJSX = () => (
   <Wrapper>
     <Menu />
-    <Comparator />
-    <Comparator />
+    <Comparator typeface='Baskerville, "Baskerville Old Face", "Hoefler Text"' />
+    <Comparator typeface='"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic' />
   </Wrapper>
 )
 
