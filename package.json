@@ -5,7 +5,7 @@
   "private": false,
   "scripts": {
     "start": "node scripts/start.js",
-    "test": "jest",
+    "test": "jest --coverage",
     "build": "node scripts/build.js",
     "lint": "standard --fix",
     "safe_word_eject": "node scripts/eject.js",
@@ -80,6 +80,7 @@
     "globals": [
       "it",
       "expect",
+      "describe",
       "URL",
       "fetch"
     ]
@@ -89,6 +90,7 @@
       "src/**/*.{js,jsx}"
     ],
     "setupFiles": [
+      "<rootDir>/__test__/setup.js",
       "<rootDir>/config/polyfills.js"
     ],
     "testMatch": [
